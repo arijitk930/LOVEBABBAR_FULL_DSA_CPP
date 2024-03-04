@@ -16,6 +16,7 @@ int binarySearch(int arr[], int size, int key)
         {
             start = mid + 1;
         }
+        // If key is lessthan mid
         else
         {
             end = mid - 1;
